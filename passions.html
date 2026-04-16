@@ -1,46 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>mon portfolio</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
-
+    <title>Mon portfolio</title>
+     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   
 </head>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 <body>
     <header>
         <div>
-            <a href="">mon portfolio</a>
+            <a href="">Mon Portfolio</a>
         </div>
         <nav>
             <ul>
-                <li><a href="index.html" >Accueil</a></li>
-                <LI><a href="projets.html">projets</a></LI>
-                <li><a href="passions.html"class="active">passions</a></li>
-                <li><a href="divertissement.html">divertissement</a></li>
-                <li><a href="contact.html" >contact</a></li>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="projets.html">Projets</a></li>
+                <li><a href="passions.html"class="active">Passions</a></li>
+                <li><a href="divertissement.html">Divertissement</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <h1>voici mes passions</h1>
-    </main>
-    <footer>
-        <br> <br>
+    <section class="passions">
+        <h2>Mes Passions</h2>
 
+        <div class="grid-passions">
 
-        <p>&copy;2026 Edwige. Tous droits réservés.</p>
-        
-        <div>
-            <a href=""><i class="fab  fa-github"></i></a>
-            <a href=""><i class="fab fa-linkedin"></i></a>
-            <a href=""><i class="fab fa-x-twitter"></i></a>
+            <div class="passion-card">
+                <img src="images/lecture.jpg" alt="Football">
+                <div class="contenu">
+                    <h3>La lecture</h3>
+                    <p>
+                        la lecture est une activité très important pour moi,
+                        elle me permet de découvrir de nouvelles histoires ,
+                        d'apprendre de nouvelles choses et de développer mon imagination.
+                    </p>
+                </div>
+            </div>
+
+            <div class="passion-card">
+                <img src="images/web.jpg" alt="Développement web">
+                <div class="contenu">
+                    <h3>Développement Web</h3>
+                    <p>
+                        Le développement web est une passion qui me permet de créer, d’innover
+                        et de résoudre des problèmes. J’aime concevoir des interfaces modernes
+                        et apprendre de nouvelles technologies pour améliorer mes compétences.
+                    </p>
+                </div>
+            </div>
+             <div class="passion-card">
+                <img src="images/basket.jpg" alt="basketball">
+                <div class="contenu">
+                    <h3> basketball</h3>
+                    <p>
+                       le basketball est un  sport que j'aime beaucoup, il me permet de rester 
+                       en bonne santé et de développer mon esprit d'équipe quand je joue, je me 
+                       sens motivé et énergetique, j'aime marquer des paniers et jouer avec mes amis
+                    </p>
+                </div>
+            </div>
+
+             <div class="passion-card">
+                <img src="images/cuisine.jpg" alt="la cuisine">
+                <div class="contenu">
+                    <h3> la cuisine</h3>
+                    <p>
+                        la cuisine est une activité que j'apprécie beaucoup, j'aime préparer 
+                        des repas et decouvrir de nouvelles recettes. La cuisine me permet 
+                        d'etre créatif et de faire plaisir aux autres, j'aime cuisiner pour ma famille et mes amis
+                    </p>
+                </div>
+            </div>
+
         </div>
+    </section>
+</main>
+    <footer>
+       <div>
+        <p>&copy; 2026 edwige. Tout droits réservés.</p>
+        <div>
+            <a href=""><i class="fa-brands fa-github"></i></a>
+            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+            <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+        </div>
+       </div> 
     </footer>
-
 </body>
 </html>
+
